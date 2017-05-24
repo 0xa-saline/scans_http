@@ -65,7 +65,7 @@ def start():
 	import os
 	#扫描当前目录下的文件
 	lst=os.listdir(os.getcwd())
-  for files in lst:
+	for files in lst:
 		try:
 			deal_with(files)
 		except  Exception as e:
