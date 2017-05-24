@@ -4,9 +4,9 @@
 https://scans.io/study/sonar.http
 
 ### 1.先对文件进行分割处理
-
+```
 zcat 2017-03-30-1490885671-http_get_80.json.gz  | split -l 200000
-
+```
 
 ### 2.对单个文件进行读取入库
 提取状态码，标题等基本信息
